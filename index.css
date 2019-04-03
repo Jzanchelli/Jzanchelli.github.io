@@ -11,9 +11,12 @@ body {
 #name {
     color: #AA353E;
 }
-#school {
-    color: #111;
-}
+
+
+#nw{background: #f09; top: 0; left: 0; right: 50%; bottom: 50%}
+#ne{background: #f90; top: 0; left: 50%; right: 0; bottom: 50%}
+#sw{background: #009; top: 50%; left: 0; right: 50%; bottom: 0}
+#se{background: #090; top: 50%; left: 50%; right: 0; bottom: 0}
 
 /* Split the screen in half */
 .split {
@@ -35,7 +38,7 @@ body {
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #AA353E;;
+  background-color: #AA353E;
 }
 
 /* If you want the content centered horizontally and vertically */
